@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bajil-sentiment"
+version = "0.1.0"
+description = "A simple sentiment analysis library"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+
+authors = [
+    {name = "Bajil Mohammed E.P."}
+]
+
+keywords = [
+    "sentiment-analysis",
+    "text-analysis",
+    "nlp"
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
